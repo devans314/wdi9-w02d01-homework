@@ -94,41 +94,41 @@
 
 // console.log(donnie.hobby);
 
-const crazyObject = {
-    taco: [
-      {
-        meat: 'steak',
-        cheese: ['panela', 'queso', 'chihuahua']
-      },
-      {
-        meat: 'chicken',
-        salsa: ["pico", "hot", "hotter", 
-        "really hot", "really really hot", "omg my mouth is burning"]
-      },
-    ],
-    larry: {
-      nicknames: ["LD", "Chicken Teriyaki Boyyyyyy"],
-      quotes: ["Pretty pretty prettayyyyy good", 
-      "Is that a parkinson's thing?", 
-      "women love a self confident bald man", 
-      "I'm a walking talking enigma"],
-      characters: [
-        {
-          name: "Jeff",
-          occupation: "manager"
-        },
-        {
-          name: "funkhauser",
-          occupation: "tv dude"
-        },
-        {
-          name: "susie",
-          occupation: "jeffs wife",
-          favourtieHobby: "Swearing at Larry and Jeff"
-        },
-      ]
-    }
-  }
+// const crazyObject = {
+//     taco: [
+//       {
+//         meat: 'steak',
+//         cheese: ['panela', 'queso', 'chihuahua']
+//       },
+//       {
+//         meat: 'chicken',
+//         salsa: ["pico", "hot", "hotter", 
+//         "really hot", "really really hot", "omg my mouth is burning"]
+//       },
+//     ],
+//     larry: {
+//       nicknames: ["LD", "Chicken Teriyaki Boyyyyyy"],
+//       quotes: ["Pretty pretty prettayyyyy good", 
+//       "Is that a parkinson's thing?", 
+//       "women love a self confident bald man", 
+//       "I'm a walking talking enigma"],
+//       characters: [
+//         {
+//           name: "Jeff",
+//           occupation: "manager"
+//         },
+//         {
+//           name: "funkhauser",
+//           occupation: "tv dude"
+//         },
+//         {
+//           name: "susie",
+//           occupation: "jeffs wife",
+//           favourtieHobby: "Swearing at Larry and Jeff"
+//         },
+//       ]
+//     }
+//   }
 //   Use crazyObject to log the following.
   
 //   "omg my mouth is burning"
@@ -204,12 +204,24 @@ const bondFilms = [
 // };
 // console.log(bondTitles);
 
-const oddBonds = [];
+// const oddBonds = [];
 
-for(i = 0; i < bondFilms.length; i++){
-    if(bondFilms.year % 2 !== 0){
-        oddBonds.push(bondFilms[i].year)
-    }
-}
-console.log(oddBonds);
+// for(i = 0; i < bondFilms.length; i++){
+//     if(bondFilms.year % 2 !== 0){
+//         oddBonds.push(bondFilms[i].year)
+//     }
+// }
+// console.log(oddBonds);
 
+// const gross = [];
+
+// for(i = 0; i < bondFilms.length; i++){
+//     bondFilms[i].gross.parseInt();
+// }  console.log(bondFilms[i].gross);
+
+// use replace method to remove dollar sign and commas from the number
+// run replace on gross and use regex (in the replace method)
+// google "how to use replace to remove dollar signs and commas"
+// save string as variable and then parseInt 
+// push integer into an array and sum the array
+// sum += 
