@@ -213,15 +213,31 @@ const bondFilms = [
 // }
 // console.log(oddBonds);
 
-// const gross = [];
-
-// for(i = 0; i < bondFilms.length; i++){
-//     bondFilms[i].gross.parseInt();
-// }  console.log(bondFilms[i].gross);
 
 // use replace method to remove dollar sign and commas from the number
 // run replace on gross and use regex (in the replace method)
 // google "how to use replace to remove dollar signs and commas"
 // save string as variable and then parseInt 
-// push integer into an array and sum the array
 // sum += 
+
+// let cumulativeGross = 0;
+// for(i = 0; i < bondFilms.length; i ++){
+//     let newStr = bondFilms[i].gross.replace(/,/gi, "").replace("$","");
+//     cumulativeGross += parseInt(newStr) 
+// }
+
+// // regular expressions the /,/ way of matching paths 
+// console.log(cumulativeGross);
+
+// function convert(str) {
+//   let result = "";
+//   for(let i = 0; i < str.length; i++){
+//     if((!isNaN)(str[i])){
+//       result += str[i]
+
+//     }
+//     return parseInt(result);
+//   }
+  
+// }
+// console.log(result);
